@@ -1,13 +1,133 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 550px;
+  height: 860px;
+  font-family: 'Inter', sans-serif;
+  background-color: #23252c ;
+  align-content: center;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  padding: 0px 50px;
+  margin: 50px 75px;
+  width: 320px;
+  height: 780px;
+}
+
+.info-details {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background-color: #1a1b21;
+  padding-bottom: 20px;
+  
+}
+
+.info-details > button {
+  margin: 8px 10px;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-email {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  
+}
+.email-icon {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.btn-linkedin {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.linkedin-icon {
+  margin-right: 6px;  
+  
+}
+
+.info-details-child > h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-details-child > h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #F3BF99;
+}
+
+.info-details-child > p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #F5F5F5;
+}
+
+.about-container {
+  color: white;
+  padding: 1px 30px;
+  background-color: #1a1b21;
+  line-height: 0.5px;
+}
+
+.about-container > h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.about-container > p {
+  display: flex;  
+  font-size: 11px;
+  color: #DCDCDC;
+  line-height: 160%;
+}
+
+.interest-container {
+  color: white;
+  padding: 1px 30px;
+  background-color: #1a1b21;
+  line-height: 0.5px;
+  
+}
+
+.interest-container > h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.interest-container > p {
+  display: flex;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 160%;
+  color: #DCDCDC;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  background-color: #161619;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer-container {
+  display:flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 25px 60px;
+
 }
